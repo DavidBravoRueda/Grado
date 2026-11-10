@@ -1,0 +1,9 @@
+Ventanal;  10002,00 €
+Mesa;  1000,00 €
+Sillas;  1200,00 €
+Pizarra;  1000,00 €
+Armario;  600,00 €
+Ordenador;  100,00 €
+
+----
+   Total = 13902,00 €

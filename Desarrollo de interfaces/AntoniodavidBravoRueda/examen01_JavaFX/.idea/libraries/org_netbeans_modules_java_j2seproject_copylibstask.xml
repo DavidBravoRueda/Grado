@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="org-netbeans-modules-java-j2seproject-copylibstask">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/pregunta04/lib/CopyLibs/org-netbeans-modules-java-j2seproject-copylibstask.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$USER_HOME$/Downloads/javafx-sdk-23.0.2" />
+    </SOURCES>
+    <jarDirectory url="file://$USER_HOME$/Downloads/javafx-sdk-23.0.2" recursive="false" type="SOURCES" />
+  </library>
+</component>

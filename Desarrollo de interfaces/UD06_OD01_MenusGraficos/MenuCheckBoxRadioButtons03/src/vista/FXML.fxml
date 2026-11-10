@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.CheckMenuItem?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.RadioMenuItem?>
+<?import javafx.scene.control.SeparatorMenuItem?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controlador.FXMLController">
+   <children>
+      <MenuBar layoutX="14.0" layoutY="14.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="Game">
+            <items>
+              <MenuItem mnemonicParsing="false" text="New Game" />
+                  <MenuItem mnemonicParsing="false" text="Pause Game" />
+                  <MenuItem mnemonicParsing="false" text="Quit Game" />
+                  <SeparatorMenuItem mnemonicParsing="false" />
+                  <MenuItem mnemonicParsing="false" text="Exit" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Option ">
+               <items>
+                  <CheckMenuItem mnemonicParsing="false" text="Sound" />
+                  <CheckMenuItem mnemonicParsing="false" text="Music" />
+                  <SeparatorMenuItem mnemonicParsing="false" />
+                  <RadioMenuItem mnemonicParsing="false" text="Easy">
+                     <toggleGroup>
+                        <ToggleGroup fx:id="groupDifficulty" />
+                     </toggleGroup>
+                  </RadioMenuItem>
+                  <RadioMenuItem mnemonicParsing="false" text="Medium" toggleGroup="$groupDifficulty" />
+                  <RadioMenuItem mnemonicParsing="false" text="Hard" toggleGroup="$groupDifficulty" />
+               </items></Menu>
+        </menus>
+      </MenuBar>
+   </children>
+</AnchorPane>

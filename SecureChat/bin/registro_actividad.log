@@ -1,0 +1,20 @@
+feb 22, 2026 7:14:03 P. M. server.Servidor main
+SEVERE: Error en el servidor: java.security.NoSuchAlgorithmException: Error constructing implementation (algorithm: Default, provider: SunJSSE, class: sun.security.ssl.SSLContextImpl$DefaultSSLContext)
+feb 22, 2026 7:18:55 P. M. server.Servidor registrarLog
+INFO: Fallo de login para: David
+feb 22, 2026 7:19:09 P. M. server.Servidor registrarLog
+INFO: Fallo de login para: David
+feb 22, 2026 7:19:20 P. M. server.Servidor registrarLog
+INFO: Fallo de login para: David
+feb 22, 2026 7:19:53 P. M. server.Servidor registrarLog
+INFO: Entrada: admin
+feb 22, 2026 7:20:27 P. M. server.Servidor registrarLog
+INFO: Salida: admin
+feb 22, 2026 8:19:14 P. M. server.Servidor registrarLog
+INFO: Entrada: admin
+feb 22, 2026 8:20:31 P. M. server.Servidor registrarLog
+INFO: Entrada: usuario1
+feb 22, 2026 8:21:01 P. M. server.Servidor registrarLog
+INFO: Salida: admin
+feb 22, 2026 8:21:03 P. M. server.Servidor registrarLog
+INFO: Salida: usuario1

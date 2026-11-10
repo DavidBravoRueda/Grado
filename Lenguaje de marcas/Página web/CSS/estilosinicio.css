@@ -1,0 +1,86 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#Logo {
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+.login-contenedor {
+    background-color: white;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.login-contenedor h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.login-contenedor form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-contenedor label {
+    font-weight: bold;
+    margin-bottom: 8px;
+    text-align: left; /* Alinear las etiquetas a la izquierda */
+}
+
+.login-contenedor input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.login-contenedor button {
+    background-color: red;
+    color: white;
+    padding: 12px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.login-contenedor button:hover {
+    background-color: red;
+}
+
+.login-contenedor p {
+    margin-top: 20px;
+}
+
+.login-contenedor a {
+    color: red;
+    text-decoration: none;
+}
+
+.login-contenedor a:hover {
+    text-decoration: underline;
+}
+
+button {
+    background-color: red;
+    color: white;
+    padding: 12px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 109%;
+}

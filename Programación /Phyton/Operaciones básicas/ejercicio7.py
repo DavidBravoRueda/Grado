@@ -1,0 +1,5 @@
+print("Dame una cantidad de segundos")
+num1=int(input())
+resultado=(num1%60)
+resultado2=(num1//60)
+print(f"{num1} equivale a {resultado2} minutos y {resultado} minutos")

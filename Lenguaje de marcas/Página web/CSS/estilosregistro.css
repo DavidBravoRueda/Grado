@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.registrar-contenedor {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    width: 300px;
+}
+
+.logo {
+    width: 50px;
+    margin-bottom: 15px;
+    transition: transform 0.3s ease;
+}
+
+.logo:hover {
+    transform: scale(1.1);
+}
+
+.registrar-contenedor h2 {
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.registrar-contenedor form {
+    display: flex;
+    flex-direction: column;
+}
+
+.registrar-contenedor label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.registrar-contenedor input {
+    width: calc(100% - 20px);
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.registrar-contenedor button {
+    background-color: red;
+    color: white;
+    padding: 10px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+}
+
+.registrar-contenedor button:hover {
+    background-color: darkred;
+}
+
+.registrar-contenedor p {
+    margin-top: 15px;
+    color: #333;
+    font-size: 14px;
+}
+
+.registrar-contenedor a {
+    color: red;
+    text-decoration: none;
+}
+
+.registrar-contenedor a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.registrar-contenedor .form-control {
+    position: relative;
+}
+
+.registrar-contenedor .form-control .input-status {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+    color: gray;
+}
+#aceptar {
+    margin-bottom: 20px;
+}

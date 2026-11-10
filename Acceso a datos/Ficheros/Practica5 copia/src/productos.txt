@@ -1,0 +1,6 @@
+Ventanal; 5001 €
+Armario; 600 €
+Mesa; 100 €
+Sillas; 60 €
+Ordenador; 100 €
+Pizarra; 1000 €

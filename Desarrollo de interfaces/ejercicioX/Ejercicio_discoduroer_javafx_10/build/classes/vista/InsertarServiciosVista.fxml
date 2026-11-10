@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="524.0" prefWidth="796.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controlador.InsertarServiciosController">
+   <children>
+      <Label layoutX="79.0" layoutY="33.0" text="Fecha alquiler" />
+      <Label layoutX="257.0" layoutY="33.0" text="Fecha entrega" />
+      <Label layoutX="470.0" layoutY="33.0" text="Vehiculo" />
+      <DatePicker fx:id="dtpFechaAlquiler" layoutX="42.0" layoutY="59.0" onAction="#seleccionarFechaAlquiler" prefHeight="26.0" prefWidth="150.0" />
+      <DatePicker fx:id="dtpFechaEntrega" layoutX="221.0" layoutY="59.0" onAction="#seleccionarFechaEntrega" prefHeight="26.0" prefWidth="150.0" />
+      <ComboBox fx:id="cmbVehiculos" layoutX="419.0" layoutY="59.0" onAction="#seleccionarVehiculo" prefWidth="150.0" />
+      <Label layoutX="654.0" layoutY="33.0" text="Clientes" />
+      <ComboBox fx:id="cmbClientes" layoutX="601.0" layoutY="59.0" onAction="#seleccionarCliente" prefWidth="150.0" />
+      <Label layoutX="76.0" layoutY="152.0" text="DESCRIPCION" />
+      <Label layoutX="76.0" layoutY="195.0" prefHeight="17.0" prefWidth="45.0" text="MARCA" />
+      <Label layoutX="76.0" layoutY="285.0" text="PRECIO" />
+      <Label layoutX="76.0" layoutY="243.0" text="KILOMETROS" />
+      <TextField fx:id="txtDescripcionVeh" layoutX="192.0" layoutY="146.0" />
+      <TextField fx:id="txtPrecioVeh" layoutX="192.0" layoutY="281.0" />
+      <TextField fx:id="txtKmVeh" layoutX="192.0" layoutY="239.0" />
+      <TextField fx:id="txtMarcaVeh" layoutX="192.0" layoutY="191.0" />
+      <Label layoutX="398.0" layoutY="153.0" text="NIF" />
+      <Label layoutX="398.0" layoutY="196.0" prefHeight="17.0" prefWidth="67.0" text="DIRECCION" />
+      <Label layoutX="398.0" layoutY="244.0" text="POBLACION" />
+      <TextField fx:id="txtNIFCli" layoutX="514.0" layoutY="148.0" />
+      <TextField fx:id="txtPobCli" layoutX="514.0" layoutY="240.0" />
+      <TextField fx:id="txtDirCli" layoutX="514.0" layoutY="192.0" />
+      <Label layoutX="294.0" layoutY="352.0" text="TOTAL SERVICIO" />
+      <TextField editable="false" layoutX="410.0" layoutY="348.0" text="0" />
+      <Button fx:id="btnGrabar" layoutX="365.0" layoutY="439.0" mnemonicParsing="false" onAction="#grabarServicio" prefHeight="26.0" prefWidth="71.0" text="Grabar" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,37 @@
+package negocio;
+
+import java.util.List;
+
+public class ServicioLibros {
+    private GestorLibros gestorLibros;
+
+    // Constructor
+    public ServicioLibros(GestorLibros gestorLibros) {
+        this.gestorLibros = gestorLibros;
+    }
+
+    // Método para agregar un libro
+    public void agregarLibro(Libro libro) {
+        gestorLibros.agregarLibro(libro);
+    }
+
+    // Método para eliminar un libro
+    public void eliminarLibro(int id) {
+        gestorLibros.eliminarLibro(id);
+    }
+
+    // Método para buscar un libro por su ID
+    public Libro buscarLibro(int id) {
+        return gestorLibros.buscarLibro(id);
+    }
+
+    // Método para obtener todos los libros
+    public List<Libro> obtenerTodosLosLibros() {
+        return gestorLibros.obtenerTodosLosLibros();
+    }
+
+    // Método para actualizar los datos de un libro
+    public void actualizarLibro(Libro libroActualizado) {
+        gestorLibros.actualizarLibro(libroActualizado);
+    }
+}

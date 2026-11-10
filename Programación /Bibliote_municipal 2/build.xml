@@ -1,0 +1,40 @@
+<project name="BibliotecaApp" default="compile">
+    <!-- Define propiedades del proyecto -->
+    <property name="src.dir" value="src"/>
+    <property name="build.dir" value="build"/>
+    <property name="lib.dir" value="lib"/>
+    <property name="classes.dir" value="${build.dir}/classes"/>
+
+    <!-- Crear directorios de compilación si no existen -->
+    <target name="init">
+        <mkdir dir="${build.dir}"/>
+        <mkdir dir="${classes.dir}"/>
+    </target>
+
+    <!-- Compilar el código fuente -->
+    <target name="compile" depends="init">
+        <javac srcdir="${src.dir}" destdir="${classes.dir}" includeantruntime="false">
+            <classpath>
+                <fileset dir="${lib.dir}">
+                    <include name="**/*.jar"/>
+                </fileset>
+            </classpath>
+        </javac>
+    </target>
+
+    <!-- Crear el archivo JAR -->
+    <target name="jar" depends="compile">
+        <mkdir dir="${build.dir}/jar"/>
+        <jar destfile="${build.dir}/jar/BibliotecaApp.jar" basedir="${classes.dir}">
+            <manifest>
+                <attribute name="Main-Class" value="Presentacion.PantallaInicio"/>
+                <attribute name="Class-Path" value="lib/mysql-connector-java-8.0.26.jar"/>
+            </manifest>
+        </jar>
+    </target>
+
+    <!-- Limpiar el directorio de compilación -->
+    <target name="clean">
+        <delete dir="${build.dir}"/>
+    </target>
+</project>

@@ -1,0 +1,6 @@
+2; Ventanal
+1; Armario
+10; Mesa 
+20; Sillas
+1; Ordenador
+1; Pizarra

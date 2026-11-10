@@ -1,0 +1,26 @@
+<Inmuebles>
+    <Propiedad>
+        <Id>P1</Id>
+        <Tipo>Piso</Tipo>
+        <Habitaciones>4</Habitaciones>
+        <Poblacion>Mijas</Poblacion>
+    </Propiedad>
+    <Propiedad>
+        <Id>P2</Id>
+        <Tipo>Atico</Tipo>
+        <Habitaciones>6</Habitaciones>
+        <Poblacion>Málaga</Poblacion>
+    </Propiedad>
+    <Propiedad>
+        <Id>P3</Id>
+        <Tipo>Piso</Tipo>
+        <Habitaciones>2</Habitaciones>
+        <Poblacion>Mijas</Poblacion>
+    </Propiedad>
+    <Propiedad>
+        <Id>P4</Id>
+        <Tipo>Piso</Tipo>
+        <Habitaciones>2</Habitaciones>
+        <Poblacion>Málaga</Poblacion>
+    </Propiedad>
+</Inmuebles>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.RadioMenuItem?>
+<?import javafx.scene.control.SeparatorMenuItem?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.BorderPane?>
+
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="295.0" prefWidth="360.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <top>
+      <MenuBar BorderPane.alignment="CENTER">
+        <menus>
+          <Menu mnemonicParsing="false" text="File" />
+          <Menu mnemonicParsing="false" text="Web" />
+          <Menu mnemonicParsing="false" text="SQL">
+            <items>
+                  <RadioMenuItem mnemonicParsing="false" text="MySQL">
+                     <toggleGroup>
+                        <ToggleGroup fx:id="radiobutton" />
+                     </toggleGroup>
+                  </RadioMenuItem>
+                  <RadioMenuItem mnemonicParsing="false" text="Oracle" toggleGroup="$radiobutton" />
+                  <SeparatorMenuItem mnemonicParsing="false" />
+                  <Menu mnemonicParsing="false" text="Tutorial">
+                    <items>
+                      <MenuItem mnemonicParsing="false" text="Java" />
+                        <MenuItem mnemonicParsing="false" text="JavaFX" />
+                        <MenuItem mnemonicParsing="false" text="Swing" />
+                    </items>
+                  </Menu>
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+   </top>
+</BorderPane>

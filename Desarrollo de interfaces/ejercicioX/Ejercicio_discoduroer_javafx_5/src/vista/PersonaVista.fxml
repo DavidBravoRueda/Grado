@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/23.0.1" fx:controller="controlador.PersonaVistaController">
+   <children>
+      <TableView fx:id="tblPersonas" layoutX="55.0" layoutY="31.0" prefHeight="265.0" prefWidth="490.0">
+        <columns>
+          <TableColumn fx:id="colNombre" prefWidth="185.0" text="Nombre" />
+          <TableColumn fx:id="colApellidos" prefWidth="206.0" text="Apellidos" />
+            <TableColumn fx:id="colEdad" prefWidth="98.0" text="Edad" />
+        </columns>
+      </TableView>
+      <Button fx:id="btnAgregar" layoutX="71.0" layoutY="333.0" mnemonicParsing="false" onAction="#agregarPersona" prefHeight="26.0" prefWidth="139.0" text="Agregar persona" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xml>
+	<Casas>
+		<Casa>
+			<Habitaciones>
+				<Salon>Azul</Salon>
+			</Habitaciones>
+			<Cocina>
+				<Color>Blanco</Color>
+			</Cocina>
+			<Cuarto_de_estar>
+				<Color>Beige</Color>
+			</Cuarto_de_estar>
+		</Casa>
+	</Casas>
+</xml>

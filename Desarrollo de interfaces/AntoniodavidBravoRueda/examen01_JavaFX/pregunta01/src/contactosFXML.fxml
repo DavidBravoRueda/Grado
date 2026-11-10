@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox spacing="10" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controlador.ControladorContactos">
+    <Label text="Lista de Contactos" style="-fx-font-size: 20pt;"/>
+    <TableView fx:id="tablaContactos" prefHeight="200">
+        <columns>
+            <TableColumn fx:id="columnaNombre" text="Nombre"/>
+            <TableColumn fx:id="columnaTelefono" text="Teléfono"/>
+            <TableColumn fx:id="columnaEmail" text="Email"/>
+        </columns>
+    </TableView>
+    <HBox spacing="10">
+        <Label text="Nombre:"/>
+        <TextField fx:id="campoNombre"/>
+    </HBox>
+    <HBox spacing="10">
+        <Label text="Teléfono:"/>
+        <TextField fx:id="campoTelefono"/>
+    </HBox>
+    <HBox spacing="10">
+        <Label text="Email:"/>
+        <TextField fx:id="campoEmail"/>
+    </HBox>
+    <Button text="Agregar Contacto" onAction="#agregarContacto"/>
+</VBox>

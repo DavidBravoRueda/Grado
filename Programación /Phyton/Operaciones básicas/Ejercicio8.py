@@ -1,0 +1,7 @@
+print("Dame una cantidad de sengundos")
+num1=int(input())
+hora=(num1//3600)
+resto=(num1%3600)
+minutos=(resto//60)
+segundos2=(resto%60)
+print(f"{num1} equivale a {hora} horas, {minutos} minutos y {segundos2} segundos")
