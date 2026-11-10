@@ -1,0 +1,31 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color white
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+id btnDo
+id btnDoAlt
+id btnFa
+id btnLa
+id btnMi
+id btnRe
+id btnSi
+id btnSol
+id main
+layout activity_main
+mipmap ic_launcher
+mipmap ic_launcher_round
+raw nota_do
+raw nota_do_alt
+raw nota_fa
+raw nota_la
+raw nota_mi
+raw nota_re
+raw nota_si
+raw nota_sol
+string app_name
+style Base.Theme.Piano
+style Theme.Piano
+xml backup_rules
+xml data_extraction_rules
